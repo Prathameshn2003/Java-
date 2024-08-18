@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class swap{
+public class array{
   public static void main(String args[])
   {
     Scanner sc=new Scanner(System.in);
