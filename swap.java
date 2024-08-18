@@ -1,23 +1,21 @@
+
 import java.util.Scanner;
 public class swap{
-    public static void main(String args[])
-    {
-        Scanner sc=new Scanner(System.in);
-       System.out.println("After swap a ");
-        int a=sc.nextInt();
-        System.out.println("After swap b ");
-        int b=sc.nextInt();
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter array size");
+    int size=sc.nextInt();
+    int array[]=new int[size];
+    int sum=0;
+    for(int i=0;i<size;i++){
+        System.out.println("Enter array element");
+         array[i]=sc.nextInt();
+         sum=sum+array[i];      
 
-       // int temp=a;
-       // a=b;
-       // b=temp;
-        a=a+b;
-        b=a-b;
-        a=a-b;
-
-        System.out.println("Before swap a "+a);
-        System.out.println("Before swap b "+b);
-
-            
     }
+    System.out.println("sum of array element"+sum);
+
+    
+  }
 }
